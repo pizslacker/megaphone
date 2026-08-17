@@ -2,7 +2,7 @@
 
 The beautiful thing about Unix-like systems is that a pipe is just `stdin` in disguise.
 
-When you use the pipe operator (`|``) in your terminal, the OS seamlessly connects the stdout of the first program directly into the stdin of the second program.
+When you use the pipe operator (`|`) in your terminal, the OS seamlessly connects the stdout of the first program directly into the stdin of the second program.
 
 However, we can make our C program smart. We can use a special POSIX function called isatty() (is-a-TTY/Teletype) to let the program look at its stdin and figure out: "Is a human typing at a keyboard, or is a machine feeding me data through a pipe?"
 
