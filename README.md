@@ -19,7 +19,7 @@ echo "hello world, this is a test" | ./megaphone
 ```
 
 ### 3. The Data Muncher
-Because pipes are universal, you can feed it the output of any command. Let's pipe the output of ls -l (which lists your files) into your C program:
+Because pipes are universal, you can feed it the output of any command. Let's pipe the output of ls -l (which lists your files) into `megaphone`:
 ```bash
 ls -l | ./megaphone
 ```
